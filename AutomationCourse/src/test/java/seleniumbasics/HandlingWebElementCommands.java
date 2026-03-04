@@ -12,6 +12,8 @@ public class HandlingWebElementCommands extends Base{
 		messagebox.sendKeys("test message");
 		
 		WebElement showbutton = driver.findElement(By.id("button-one"));
+		System.out.println(showbutton.isDisplayed());
+		System.out.println(showbutton.isEnabled());
 		showbutton.click();
 		
 		WebElement yourmessage = driver.findElement(By.id("message-one"));
