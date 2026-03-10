@@ -47,13 +47,14 @@ public class HandlingActions extends Base {
        action.browserLaunch();
        //action.verifyRightClick();
        //action.verifyMouseHover();
-       //action.verifyDragAndDrop();
-       try {
+       action.verifyDragAndDrop();
+       
+      /* try {
 		action.verifyKeyboardAction();
 	} catch (AWTException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
-	}
+	}*/
 	}
 
 }
